@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/half.dir/half.c.o  -o half  -lm 

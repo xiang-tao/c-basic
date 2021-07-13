@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/shape.dir/shape.c.o  -o shape 
