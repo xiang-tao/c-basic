@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xt/example/c
+CMAKE_SOURCE_DIR = /home/xt/github/c-basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xt/example/c/build
+CMAKE_BINARY_DIR = /home/xt/github/c-basic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xt/example/c/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles /home/xt/example/c/build/test/CMakeFiles/progress.marks
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
+	cd /home/xt/github/c-basic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles /home/xt/github/c-basic/build/test/CMakeFiles/progress.marks
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,142 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xt/example/c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/xt/github/c-basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/shape.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/rule
-.PHONY : test/CMakeFiles/shape.dir/rule
-
-# Convenience name for target.
-shape: test/CMakeFiles/shape.dir/rule
-
-.PHONY : shape
-
-# fast build rule for target.
-shape/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
-.PHONY : shape/fast
-
-# Convenience name for target.
-test/CMakeFiles/file.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/rule
-.PHONY : test/CMakeFiles/file.dir/rule
-
-# Convenience name for target.
-file: test/CMakeFiles/file.dir/rule
-
-.PHONY : file
-
-# fast build rule for target.
-file/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
-.PHONY : file/fast
-
-# Convenience name for target.
-test/CMakeFiles/half.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/rule
-.PHONY : test/CMakeFiles/half.dir/rule
-
-# Convenience name for target.
-half: test/CMakeFiles/half.dir/rule
-
-.PHONY : half
-
-# fast build rule for target.
-half/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
-.PHONY : half/fast
-
-# Convenience name for target.
-test/CMakeFiles/pde.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/rule
-.PHONY : test/CMakeFiles/pde.dir/rule
-
-# Convenience name for target.
-pde: test/CMakeFiles/pde.dir/rule
-
-.PHONY : pde
-
-# fast build rule for target.
-pde/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
-.PHONY : pde/fast
-
-# Convenience name for target.
-test/CMakeFiles/wanshu.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/rule
-.PHONY : test/CMakeFiles/wanshu.dir/rule
-
-# Convenience name for target.
-wanshu: test/CMakeFiles/wanshu.dir/rule
-
-.PHONY : wanshu
-
-# fast build rule for target.
-wanshu/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
-.PHONY : wanshu/fast
-
-# Convenience name for target.
-test/CMakeFiles/test.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
-.PHONY : test/CMakeFiles/test.dir/rule
-
-# Convenience name for target.
-test: test/CMakeFiles/test.dir/rule
-
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-# Convenience name for target.
-test/CMakeFiles/sushu.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/sushu.dir/rule
-.PHONY : test/CMakeFiles/sushu.dir/rule
-
-# Convenience name for target.
-sushu: test/CMakeFiles/sushu.dir/rule
-
-.PHONY : sushu
-
-# fast build rule for target.
-sushu/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/build
-.PHONY : sushu/fast
-
-# Convenience name for target.
-test/CMakeFiles/newhalf.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newhalf.dir/rule
-.PHONY : test/CMakeFiles/newhalf.dir/rule
-
-# Convenience name for target.
-newhalf: test/CMakeFiles/newhalf.dir/rule
-
-.PHONY : newhalf
-
-# fast build rule for target.
-newhalf/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
-.PHONY : newhalf/fast
-
-# Convenience name for target.
 test/CMakeFiles/newshape.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newshape.dir/rule
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newshape.dir/rule
 .PHONY : test/CMakeFiles/newshape.dir/rule
 
 # Convenience name for target.
@@ -242,12 +122,147 @@ newshape: test/CMakeFiles/newshape.dir/rule
 
 # fast build rule for target.
 newshape/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/build
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/build
 .PHONY : newshape/fast
 
 # Convenience name for target.
+test/CMakeFiles/newhalf.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newhalf.dir/rule
+.PHONY : test/CMakeFiles/newhalf.dir/rule
+
+# Convenience name for target.
+newhalf: test/CMakeFiles/newhalf.dir/rule
+
+.PHONY : newhalf
+
+# fast build rule for target.
+newhalf/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
+.PHONY : newhalf/fast
+
+# Convenience name for target.
+test/CMakeFiles/shuixianhua.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shuixianhua.dir/rule
+.PHONY : test/CMakeFiles/shuixianhua.dir/rule
+
+# Convenience name for target.
+shuixianhua: test/CMakeFiles/shuixianhua.dir/rule
+
+.PHONY : shuixianhua
+
+# fast build rule for target.
+shuixianhua/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/build
+.PHONY : shuixianhua/fast
+
+# Convenience name for target.
+test/CMakeFiles/test.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+.PHONY : test/CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: test/CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+# Convenience name for target.
+test/CMakeFiles/sushu.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/sushu.dir/rule
+.PHONY : test/CMakeFiles/sushu.dir/rule
+
+# Convenience name for target.
+sushu: test/CMakeFiles/sushu.dir/rule
+
+.PHONY : sushu
+
+# fast build rule for target.
+sushu/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/build
+.PHONY : sushu/fast
+
+# Convenience name for target.
+test/CMakeFiles/qinmishu.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/qinmishu.dir/rule
+.PHONY : test/CMakeFiles/qinmishu.dir/rule
+
+# Convenience name for target.
+qinmishu: test/CMakeFiles/qinmishu.dir/rule
+
+.PHONY : qinmishu
+
+# fast build rule for target.
+qinmishu/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/build
+.PHONY : qinmishu/fast
+
+# Convenience name for target.
+test/CMakeFiles/wanshu.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/rule
+.PHONY : test/CMakeFiles/wanshu.dir/rule
+
+# Convenience name for target.
+wanshu: test/CMakeFiles/wanshu.dir/rule
+
+.PHONY : wanshu
+
+# fast build rule for target.
+wanshu/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
+.PHONY : wanshu/fast
+
+# Convenience name for target.
+test/CMakeFiles/pde.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/rule
+.PHONY : test/CMakeFiles/pde.dir/rule
+
+# Convenience name for target.
+pde: test/CMakeFiles/pde.dir/rule
+
+.PHONY : pde
+
+# fast build rule for target.
+pde/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
+.PHONY : pde/fast
+
+# Convenience name for target.
+test/CMakeFiles/half.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/rule
+.PHONY : test/CMakeFiles/half.dir/rule
+
+# Convenience name for target.
+half: test/CMakeFiles/half.dir/rule
+
+.PHONY : half
+
+# fast build rule for target.
+half/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
+.PHONY : half/fast
+
+# Convenience name for target.
+test/CMakeFiles/file.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/rule
+.PHONY : test/CMakeFiles/file.dir/rule
+
+# Convenience name for target.
+file: test/CMakeFiles/file.dir/rule
+
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
+.PHONY : file/fast
+
+# Convenience name for target.
 test/CMakeFiles/hello.dir/rule:
-	cd /home/xt/example/c/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hello.dir/rule
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hello.dir/rule
 .PHONY : test/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -257,8 +272,23 @@ hello: test/CMakeFiles/hello.dir/rule
 
 # fast build rule for target.
 hello/fast:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+# Convenience name for target.
+test/CMakeFiles/shape.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/rule
+.PHONY : test/CMakeFiles/shape.dir/rule
+
+# Convenience name for target.
+shape: test/CMakeFiles/shape.dir/rule
+
+.PHONY : shape
+
+# fast build rule for target.
+shape/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
+.PHONY : shape/fast
 
 file.o: file.c.o
 
@@ -266,7 +296,7 @@ file.o: file.c.o
 
 # target to build an object file
 file.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.o
 .PHONY : file.c.o
 
 file.i: file.c.i
@@ -275,7 +305,7 @@ file.i: file.c.i
 
 # target to preprocess a source file
 file.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.i
 .PHONY : file.c.i
 
 file.s: file.c.s
@@ -284,7 +314,7 @@ file.s: file.c.s
 
 # target to generate assembly for a file
 file.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.s
 .PHONY : file.c.s
 
 half.o: half.c.o
@@ -293,7 +323,7 @@ half.o: half.c.o
 
 # target to build an object file
 half.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.o
 .PHONY : half.c.o
 
 half.i: half.c.i
@@ -302,7 +332,7 @@ half.i: half.c.i
 
 # target to preprocess a source file
 half.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.i
 .PHONY : half.c.i
 
 half.s: half.c.s
@@ -311,7 +341,7 @@ half.s: half.c.s
 
 # target to generate assembly for a file
 half.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.s
 .PHONY : half.c.s
 
 hello.o: hello.c.o
@@ -320,7 +350,7 @@ hello.o: hello.c.o
 
 # target to build an object file
 hello.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.o
 .PHONY : hello.c.o
 
 hello.i: hello.c.i
@@ -329,7 +359,7 @@ hello.i: hello.c.i
 
 # target to preprocess a source file
 hello.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.i
 .PHONY : hello.c.i
 
 hello.s: hello.c.s
@@ -338,7 +368,7 @@ hello.s: hello.c.s
 
 # target to generate assembly for a file
 hello.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.s
 .PHONY : hello.c.s
 
 newhalf.o: newhalf.c.o
@@ -347,7 +377,7 @@ newhalf.o: newhalf.c.o
 
 # target to build an object file
 newhalf.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.o
 .PHONY : newhalf.c.o
 
 newhalf.i: newhalf.c.i
@@ -356,7 +386,7 @@ newhalf.i: newhalf.c.i
 
 # target to preprocess a source file
 newhalf.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.i
 .PHONY : newhalf.c.i
 
 newhalf.s: newhalf.c.s
@@ -365,7 +395,7 @@ newhalf.s: newhalf.c.s
 
 # target to generate assembly for a file
 newhalf.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/newhalf.c.s
 .PHONY : newhalf.c.s
 
 newshape.o: newshape.c.o
@@ -374,7 +404,7 @@ newshape.o: newshape.c.o
 
 # target to build an object file
 newshape.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.o
 .PHONY : newshape.c.o
 
 newshape.i: newshape.c.i
@@ -383,7 +413,7 @@ newshape.i: newshape.c.i
 
 # target to preprocess a source file
 newshape.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.i
 .PHONY : newshape.c.i
 
 newshape.s: newshape.c.s
@@ -392,7 +422,7 @@ newshape.s: newshape.c.s
 
 # target to generate assembly for a file
 newshape.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.s
 .PHONY : newshape.c.s
 
 pde.o: pde.c.o
@@ -401,7 +431,7 @@ pde.o: pde.c.o
 
 # target to build an object file
 pde.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.o
 .PHONY : pde.c.o
 
 pde.i: pde.c.i
@@ -410,7 +440,7 @@ pde.i: pde.c.i
 
 # target to preprocess a source file
 pde.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.i
 .PHONY : pde.c.i
 
 pde.s: pde.c.s
@@ -419,8 +449,35 @@ pde.s: pde.c.s
 
 # target to generate assembly for a file
 pde.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/pde.c.s
 .PHONY : pde.c.s
+
+qinmishu.o: qinmishu.c.o
+
+.PHONY : qinmishu.o
+
+# target to build an object file
+qinmishu.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/qinmishu.c.o
+.PHONY : qinmishu.c.o
+
+qinmishu.i: qinmishu.c.i
+
+.PHONY : qinmishu.i
+
+# target to preprocess a source file
+qinmishu.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/qinmishu.c.i
+.PHONY : qinmishu.c.i
+
+qinmishu.s: qinmishu.c.s
+
+.PHONY : qinmishu.s
+
+# target to generate assembly for a file
+qinmishu.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/qinmishu.c.s
+.PHONY : qinmishu.c.s
 
 shape.o: shape.c.o
 
@@ -428,7 +485,7 @@ shape.o: shape.c.o
 
 # target to build an object file
 shape.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.o
 .PHONY : shape.c.o
 
 shape.i: shape.c.i
@@ -437,7 +494,7 @@ shape.i: shape.c.i
 
 # target to preprocess a source file
 shape.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.i
 .PHONY : shape.c.i
 
 shape.s: shape.c.s
@@ -446,8 +503,35 @@ shape.s: shape.c.s
 
 # target to generate assembly for a file
 shape.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/shape.c.s
 .PHONY : shape.c.s
+
+shuixianhua.o: shuixianhua.c.o
+
+.PHONY : shuixianhua.o
+
+# target to build an object file
+shuixianhua.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/shuixianhua.c.o
+.PHONY : shuixianhua.c.o
+
+shuixianhua.i: shuixianhua.c.i
+
+.PHONY : shuixianhua.i
+
+# target to preprocess a source file
+shuixianhua.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/shuixianhua.c.i
+.PHONY : shuixianhua.c.i
+
+shuixianhua.s: shuixianhua.c.s
+
+.PHONY : shuixianhua.s
+
+# target to generate assembly for a file
+shuixianhua.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/shuixianhua.c.s
+.PHONY : shuixianhua.c.s
 
 sushu.o: sushu.c.o
 
@@ -455,7 +539,7 @@ sushu.o: sushu.c.o
 
 # target to build an object file
 sushu.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.o
 .PHONY : sushu.c.o
 
 sushu.i: sushu.c.i
@@ -464,7 +548,7 @@ sushu.i: sushu.c.i
 
 # target to preprocess a source file
 sushu.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.i
 .PHONY : sushu.c.i
 
 sushu.s: sushu.c.s
@@ -473,7 +557,7 @@ sushu.s: sushu.c.s
 
 # target to generate assembly for a file
 sushu.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/sushu.c.s
 .PHONY : sushu.c.s
 
 test.o: test.c.o
@@ -482,7 +566,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -491,7 +575,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -500,7 +584,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.c.s
 .PHONY : test.c.s
 
 wanshu.o: wanshu.c.o
@@ -509,7 +593,7 @@ wanshu.o: wanshu.c.o
 
 # target to build an object file
 wanshu.c.o:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.o
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.o
 .PHONY : wanshu.c.o
 
 wanshu.i: wanshu.c.i
@@ -518,7 +602,7 @@ wanshu.i: wanshu.c.i
 
 # target to preprocess a source file
 wanshu.c.i:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.i
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.i
 .PHONY : wanshu.c.i
 
 wanshu.s: wanshu.c.s
@@ -527,7 +611,7 @@ wanshu.s: wanshu.c.s
 
 # target to generate assembly for a file
 wanshu.c.s:
-	cd /home/xt/example/c/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.s
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.s
 .PHONY : wanshu.c.s
 
 # Help Target
@@ -536,18 +620,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... shape"
-	@echo "... rebuild_cache"
-	@echo "... file"
-	@echo "... half"
-	@echo "... pde"
-	@echo "... wanshu"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... sushu"
-	@echo "... newhalf"
 	@echo "... newshape"
+	@echo "... newhalf"
+	@echo "... shuixianhua"
+	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... sushu"
+	@echo "... qinmishu"
+	@echo "... wanshu"
+	@echo "... pde"
+	@echo "... half"
+	@echo "... file"
 	@echo "... hello"
+	@echo "... shape"
 	@echo "... file.o"
 	@echo "... file.i"
 	@echo "... file.s"
@@ -566,9 +652,15 @@ help:
 	@echo "... pde.o"
 	@echo "... pde.i"
 	@echo "... pde.s"
+	@echo "... qinmishu.o"
+	@echo "... qinmishu.i"
+	@echo "... qinmishu.s"
 	@echo "... shape.o"
 	@echo "... shape.i"
 	@echo "... shape.s"
+	@echo "... shuixianhua.o"
+	@echo "... shuixianhua.i"
+	@echo "... shuixianhua.s"
 	@echo "... sushu.o"
 	@echo "... sushu.i"
 	@echo "... sushu.s"
@@ -589,6 +681,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xt/example/c/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/xt/github/c-basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

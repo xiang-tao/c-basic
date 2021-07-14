@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xt/example/c/test/hello.c" "/home/xt/example/c/build/test/CMakeFiles/hello.dir/hello.c.o"
+  "/home/xt/github/c-basic/test/hello.c" "/home/xt/github/c-basic/build/test/CMakeFiles/hello.dir/hello.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

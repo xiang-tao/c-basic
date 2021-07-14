@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xt/example/c/test/hello.c
+/home/xt/github/c-basic/test/hello.c
 stdio.h
 -
 

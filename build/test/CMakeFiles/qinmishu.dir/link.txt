@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/qinmishu.dir/qinmishu.c.o  -o qinmishu  -lm 

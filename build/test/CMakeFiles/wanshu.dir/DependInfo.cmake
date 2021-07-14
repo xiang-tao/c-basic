@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xt/example/c/test/wanshu.c" "/home/xt/example/c/build/test/CMakeFiles/wanshu.dir/wanshu.c.o"
+  "/home/xt/github/c-basic/test/wanshu.c" "/home/xt/github/c-basic/build/test/CMakeFiles/wanshu.dir/wanshu.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

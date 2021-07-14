@@ -1,17 +1,22 @@
+/*
+ * Notes:统计一个区间中的完数
+ * ---------
+ *  完数定义：即该数的因数（包含1，但不含自身）和等于自身
+ * */
 #include<stdio.h>
 #include<math.h>
 int main()
 {
-    int sum=0,k=2,i;
-    for(i=1;i<1001;i++)
+    int j,i;
+    for(i=2;i<1001;i++)
     {
-        if(i%k==0)
+        int sum = 0;
+        for(j=1;j<=i/2;j++)
         {
-            sum =1+sum + k+i/k;
+            if(i%j==0)
+                sum+=j;
         }
-        k+=1;
         if(sum==i)
             printf("%d\n",i);
-
     }
 }

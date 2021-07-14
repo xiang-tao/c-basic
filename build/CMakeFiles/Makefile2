@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xt/example/c
+CMAKE_SOURCE_DIR = /home/xt/github/c-basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xt/example/c/build
+CMAKE_BINARY_DIR = /home/xt/github/c-basic/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -71,16 +71,18 @@ clean: test/clean
 # Directory level rules for directory test
 
 # Recursive "all" directory target.
-test/all: test/CMakeFiles/shape.dir/all
-test/all: test/CMakeFiles/file.dir/all
-test/all: test/CMakeFiles/half.dir/all
-test/all: test/CMakeFiles/pde.dir/all
-test/all: test/CMakeFiles/wanshu.dir/all
+test/all: test/CMakeFiles/newshape.dir/all
+test/all: test/CMakeFiles/newhalf.dir/all
+test/all: test/CMakeFiles/shuixianhua.dir/all
 test/all: test/CMakeFiles/test.dir/all
 test/all: test/CMakeFiles/sushu.dir/all
-test/all: test/CMakeFiles/newhalf.dir/all
-test/all: test/CMakeFiles/newshape.dir/all
+test/all: test/CMakeFiles/qinmishu.dir/all
+test/all: test/CMakeFiles/wanshu.dir/all
+test/all: test/CMakeFiles/pde.dir/all
+test/all: test/CMakeFiles/half.dir/all
+test/all: test/CMakeFiles/file.dir/all
 test/all: test/CMakeFiles/hello.dir/all
+test/all: test/CMakeFiles/shape.dir/all
 
 .PHONY : test/all
 
@@ -90,153 +92,101 @@ test/preinstall:
 .PHONY : test/preinstall
 
 # Recursive "clean" directory target.
-test/clean: test/CMakeFiles/shape.dir/clean
-test/clean: test/CMakeFiles/file.dir/clean
-test/clean: test/CMakeFiles/half.dir/clean
-test/clean: test/CMakeFiles/pde.dir/clean
-test/clean: test/CMakeFiles/wanshu.dir/clean
+test/clean: test/CMakeFiles/newshape.dir/clean
+test/clean: test/CMakeFiles/newhalf.dir/clean
+test/clean: test/CMakeFiles/shuixianhua.dir/clean
 test/clean: test/CMakeFiles/test.dir/clean
 test/clean: test/CMakeFiles/sushu.dir/clean
-test/clean: test/CMakeFiles/newhalf.dir/clean
-test/clean: test/CMakeFiles/newshape.dir/clean
+test/clean: test/CMakeFiles/qinmishu.dir/clean
+test/clean: test/CMakeFiles/wanshu.dir/clean
+test/clean: test/CMakeFiles/pde.dir/clean
+test/clean: test/CMakeFiles/half.dir/clean
+test/clean: test/CMakeFiles/file.dir/clean
 test/clean: test/CMakeFiles/hello.dir/clean
+test/clean: test/CMakeFiles/shape.dir/clean
 
 .PHONY : test/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/shape.dir
+# Target rules for target test/CMakeFiles/newshape.dir
 
 # All Build rule for target.
-test/CMakeFiles/shape.dir/all:
-	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/depend
-	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=13,14 "Built target shape"
-.PHONY : test/CMakeFiles/shape.dir/all
+test/CMakeFiles/newshape.dir/all:
+	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/depend
+	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=9,10 "Built target newshape"
+.PHONY : test/CMakeFiles/newshape.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/shape.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/shape.dir/rule
+test/CMakeFiles/newshape.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newshape.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/newshape.dir/rule
 
 # Convenience name for target.
-shape: test/CMakeFiles/shape.dir/rule
+newshape: test/CMakeFiles/newshape.dir/rule
 
-.PHONY : shape
+.PHONY : newshape
 
 # clean rule for target.
-test/CMakeFiles/shape.dir/clean:
-	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/clean
-.PHONY : test/CMakeFiles/shape.dir/clean
+test/CMakeFiles/newshape.dir/clean:
+	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/clean
+.PHONY : test/CMakeFiles/newshape.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/file.dir
+# Target rules for target test/CMakeFiles/newhalf.dir
 
 # All Build rule for target.
-test/CMakeFiles/file.dir/all:
-	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/depend
-	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=1,2 "Built target file"
-.PHONY : test/CMakeFiles/file.dir/all
+test/CMakeFiles/newhalf.dir/all:
+	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/depend
+	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=7,8 "Built target newhalf"
+.PHONY : test/CMakeFiles/newhalf.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/file.dir/rule
+test/CMakeFiles/newhalf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newhalf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/newhalf.dir/rule
 
 # Convenience name for target.
-file: test/CMakeFiles/file.dir/rule
+newhalf: test/CMakeFiles/newhalf.dir/rule
 
-.PHONY : file
+.PHONY : newhalf
 
 # clean rule for target.
-test/CMakeFiles/file.dir/clean:
-	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/clean
-.PHONY : test/CMakeFiles/file.dir/clean
+test/CMakeFiles/newhalf.dir/clean:
+	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/clean
+.PHONY : test/CMakeFiles/newhalf.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/half.dir
+# Target rules for target test/CMakeFiles/shuixianhua.dir
 
 # All Build rule for target.
-test/CMakeFiles/half.dir/all:
-	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/depend
-	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=3,4 "Built target half"
-.PHONY : test/CMakeFiles/half.dir/all
+test/CMakeFiles/shuixianhua.dir/all:
+	$(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/depend
+	$(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=17,18 "Built target shuixianhua"
+.PHONY : test/CMakeFiles/shuixianhua.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/half.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/half.dir/rule
+test/CMakeFiles/shuixianhua.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shuixianhua.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/shuixianhua.dir/rule
 
 # Convenience name for target.
-half: test/CMakeFiles/half.dir/rule
+shuixianhua: test/CMakeFiles/shuixianhua.dir/rule
 
-.PHONY : half
-
-# clean rule for target.
-test/CMakeFiles/half.dir/clean:
-	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/clean
-.PHONY : test/CMakeFiles/half.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/pde.dir
-
-# All Build rule for target.
-test/CMakeFiles/pde.dir/all:
-	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/depend
-	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=11,12 "Built target pde"
-.PHONY : test/CMakeFiles/pde.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/pde.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/pde.dir/rule
-
-# Convenience name for target.
-pde: test/CMakeFiles/pde.dir/rule
-
-.PHONY : pde
+.PHONY : shuixianhua
 
 # clean rule for target.
-test/CMakeFiles/pde.dir/clean:
-	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/clean
-.PHONY : test/CMakeFiles/pde.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/wanshu.dir
-
-# All Build rule for target.
-test/CMakeFiles/wanshu.dir/all:
-	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/depend
-	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=19,20 "Built target wanshu"
-.PHONY : test/CMakeFiles/wanshu.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/wanshu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/wanshu.dir/rule
-
-# Convenience name for target.
-wanshu: test/CMakeFiles/wanshu.dir/rule
-
-.PHONY : wanshu
-
-# clean rule for target.
-test/CMakeFiles/wanshu.dir/clean:
-	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/clean
-.PHONY : test/CMakeFiles/wanshu.dir/clean
+test/CMakeFiles/shuixianhua.dir/clean:
+	$(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/clean
+.PHONY : test/CMakeFiles/shuixianhua.dir/clean
 
 #=============================================================================
 # Target rules for target test/CMakeFiles/test.dir
@@ -245,14 +195,14 @@ test/CMakeFiles/wanshu.dir/clean:
 test/CMakeFiles/test.dir/all:
 	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/depend
 	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=17,18 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=21,22 "Built target test"
 .PHONY : test/CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -272,14 +222,14 @@ test/CMakeFiles/test.dir/clean:
 test/CMakeFiles/sushu.dir/all:
 	$(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/depend
 	$(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=15,16 "Built target sushu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=19,20 "Built target sushu"
 .PHONY : test/CMakeFiles/sushu.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/sushu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/sushu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/sushu.dir/rule
 
 # Convenience name for target.
@@ -293,58 +243,139 @@ test/CMakeFiles/sushu.dir/clean:
 .PHONY : test/CMakeFiles/sushu.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/newhalf.dir
+# Target rules for target test/CMakeFiles/qinmishu.dir
 
 # All Build rule for target.
-test/CMakeFiles/newhalf.dir/all:
-	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/depend
-	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=7,8 "Built target newhalf"
-.PHONY : test/CMakeFiles/newhalf.dir/all
+test/CMakeFiles/qinmishu.dir/all:
+	$(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/depend
+	$(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=13,14 "Built target qinmishu"
+.PHONY : test/CMakeFiles/qinmishu.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/newhalf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newhalf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/newhalf.dir/rule
+test/CMakeFiles/qinmishu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/qinmishu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/qinmishu.dir/rule
 
 # Convenience name for target.
-newhalf: test/CMakeFiles/newhalf.dir/rule
+qinmishu: test/CMakeFiles/qinmishu.dir/rule
 
-.PHONY : newhalf
+.PHONY : qinmishu
 
 # clean rule for target.
-test/CMakeFiles/newhalf.dir/clean:
-	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/clean
-.PHONY : test/CMakeFiles/newhalf.dir/clean
+test/CMakeFiles/qinmishu.dir/clean:
+	$(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/clean
+.PHONY : test/CMakeFiles/qinmishu.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/newshape.dir
+# Target rules for target test/CMakeFiles/wanshu.dir
 
 # All Build rule for target.
-test/CMakeFiles/newshape.dir/all:
-	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/depend
-	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=9,10 "Built target newshape"
-.PHONY : test/CMakeFiles/newshape.dir/all
+test/CMakeFiles/wanshu.dir/all:
+	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/depend
+	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=23,24 "Built target wanshu"
+.PHONY : test/CMakeFiles/wanshu.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/newshape.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newshape.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/newshape.dir/rule
+test/CMakeFiles/wanshu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/wanshu.dir/rule
 
 # Convenience name for target.
-newshape: test/CMakeFiles/newshape.dir/rule
+wanshu: test/CMakeFiles/wanshu.dir/rule
 
-.PHONY : newshape
+.PHONY : wanshu
 
 # clean rule for target.
-test/CMakeFiles/newshape.dir/clean:
-	$(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/clean
-.PHONY : test/CMakeFiles/newshape.dir/clean
+test/CMakeFiles/wanshu.dir/clean:
+	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/clean
+.PHONY : test/CMakeFiles/wanshu.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/pde.dir
+
+# All Build rule for target.
+test/CMakeFiles/pde.dir/all:
+	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/depend
+	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=11,12 "Built target pde"
+.PHONY : test/CMakeFiles/pde.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/pde.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/pde.dir/rule
+
+# Convenience name for target.
+pde: test/CMakeFiles/pde.dir/rule
+
+.PHONY : pde
+
+# clean rule for target.
+test/CMakeFiles/pde.dir/clean:
+	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/clean
+.PHONY : test/CMakeFiles/pde.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/half.dir
+
+# All Build rule for target.
+test/CMakeFiles/half.dir/all:
+	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/depend
+	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=3,4 "Built target half"
+.PHONY : test/CMakeFiles/half.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/half.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/half.dir/rule
+
+# Convenience name for target.
+half: test/CMakeFiles/half.dir/rule
+
+.PHONY : half
+
+# clean rule for target.
+test/CMakeFiles/half.dir/clean:
+	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/clean
+.PHONY : test/CMakeFiles/half.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/file.dir
+
+# All Build rule for target.
+test/CMakeFiles/file.dir/all:
+	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/depend
+	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=1,2 "Built target file"
+.PHONY : test/CMakeFiles/file.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/file.dir/rule
+
+# Convenience name for target.
+file: test/CMakeFiles/file.dir/rule
+
+.PHONY : file
+
+# clean rule for target.
+test/CMakeFiles/file.dir/clean:
+	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/clean
+.PHONY : test/CMakeFiles/file.dir/clean
 
 #=============================================================================
 # Target rules for target test/CMakeFiles/hello.dir
@@ -353,14 +384,14 @@ test/CMakeFiles/newshape.dir/clean:
 test/CMakeFiles/hello.dir/all:
 	$(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/depend
 	$(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/example/c/build/CMakeFiles --progress-num=5,6 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=5,6 "Built target hello"
 .PHONY : test/CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/example/c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -372,6 +403,33 @@ hello: test/CMakeFiles/hello.dir/rule
 test/CMakeFiles/hello.dir/clean:
 	$(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/clean
 .PHONY : test/CMakeFiles/hello.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/shape.dir
+
+# All Build rule for target.
+test/CMakeFiles/shape.dir/all:
+	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/depend
+	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xt/github/c-basic/build/CMakeFiles --progress-num=15,16 "Built target shape"
+.PHONY : test/CMakeFiles/shape.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/shape.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xt/github/c-basic/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/shape.dir/rule
+
+# Convenience name for target.
+shape: test/CMakeFiles/shape.dir/rule
+
+.PHONY : shape
+
+# clean rule for target.
+test/CMakeFiles/shape.dir/clean:
+	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/clean
+.PHONY : test/CMakeFiles/shape.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xt/example/c/test/newhalf.c
+/home/xt/github/c-basic/test/newhalf.c
 stdio.h
 -
 math.h

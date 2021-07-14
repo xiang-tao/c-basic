@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xt/example/c/test/pde.c
+/home/xt/github/c-basic/test/pde.c
 stdio.h
 -
 math.h

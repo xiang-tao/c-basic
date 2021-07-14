@@ -52,14 +52,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "test/CMakeFiles/shape.dir/DependInfo.cmake"
-  "test/CMakeFiles/file.dir/DependInfo.cmake"
-  "test/CMakeFiles/half.dir/DependInfo.cmake"
-  "test/CMakeFiles/pde.dir/DependInfo.cmake"
-  "test/CMakeFiles/wanshu.dir/DependInfo.cmake"
+  "test/CMakeFiles/newshape.dir/DependInfo.cmake"
+  "test/CMakeFiles/newhalf.dir/DependInfo.cmake"
+  "test/CMakeFiles/shuixianhua.dir/DependInfo.cmake"
   "test/CMakeFiles/test.dir/DependInfo.cmake"
   "test/CMakeFiles/sushu.dir/DependInfo.cmake"
-  "test/CMakeFiles/newhalf.dir/DependInfo.cmake"
-  "test/CMakeFiles/newshape.dir/DependInfo.cmake"
+  "test/CMakeFiles/qinmishu.dir/DependInfo.cmake"
+  "test/CMakeFiles/wanshu.dir/DependInfo.cmake"
+  "test/CMakeFiles/pde.dir/DependInfo.cmake"
+  "test/CMakeFiles/half.dir/DependInfo.cmake"
+  "test/CMakeFiles/file.dir/DependInfo.cmake"
   "test/CMakeFiles/hello.dir/DependInfo.cmake"
+  "test/CMakeFiles/shape.dir/DependInfo.cmake"
   )

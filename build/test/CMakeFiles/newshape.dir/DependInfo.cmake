@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xt/example/c/test/newshape.c" "/home/xt/example/c/build/test/CMakeFiles/newshape.dir/newshape.c.o"
+  "/home/xt/github/c-basic/test/newshape.c" "/home/xt/github/c-basic/build/test/CMakeFiles/newshape.dir/newshape.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

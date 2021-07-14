@@ -1,8 +1,14 @@
 add_executable(hello hello.c)
 add_executable(newhalf newhalf.c)
 
+add_executable(shuixianhua shuixianhua.c)
+target_link_libraries(shuixianhua  m)
+
 add_executable(test test.c)
 target_link_libraries(test  m)
+
+add_executable(qinmishu qinmishu.c)
+target_link_libraries(qinmishu  m)
 
 add_executable(wanshu wanshu.c)
 

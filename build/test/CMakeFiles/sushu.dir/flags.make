@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/xt/example/c/include 
+C_INCLUDES = -I/home/xt/github/c-basic/include 
 

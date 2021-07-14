@@ -1,4 +1,4 @@
-# Install script for directory: /home/xt/example/c/test
+# Install script for directory: /home/xt/github/c-basic/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
