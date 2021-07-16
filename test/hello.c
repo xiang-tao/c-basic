@@ -2,4 +2,5 @@
 int main()
 {
     printf("hello,c语言\n");
+    printf("hello\n");
 }

@@ -126,6 +126,51 @@ newshape/fast:
 .PHONY : newshape/fast
 
 # Convenience name for target.
+test/CMakeFiles/file.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/rule
+.PHONY : test/CMakeFiles/file.dir/rule
+
+# Convenience name for target.
+file: test/CMakeFiles/file.dir/rule
+
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
+.PHONY : file/fast
+
+# Convenience name for target.
+test/CMakeFiles/half.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/rule
+.PHONY : test/CMakeFiles/half.dir/rule
+
+# Convenience name for target.
+half: test/CMakeFiles/half.dir/rule
+
+.PHONY : half
+
+# fast build rule for target.
+half/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
+.PHONY : half/fast
+
+# Convenience name for target.
+test/CMakeFiles/wanshu.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/rule
+.PHONY : test/CMakeFiles/wanshu.dir/rule
+
+# Convenience name for target.
+wanshu: test/CMakeFiles/wanshu.dir/rule
+
+.PHONY : wanshu
+
+# fast build rule for target.
+wanshu/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
+.PHONY : wanshu/fast
+
+# Convenience name for target.
 test/CMakeFiles/newhalf.dir/rule:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/newhalf.dir/rule
 .PHONY : test/CMakeFiles/newhalf.dir/rule
@@ -139,6 +184,51 @@ newhalf: test/CMakeFiles/newhalf.dir/rule
 newhalf/fast:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
 .PHONY : newhalf/fast
+
+# Convenience name for target.
+test/CMakeFiles/pde.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/rule
+.PHONY : test/CMakeFiles/pde.dir/rule
+
+# Convenience name for target.
+pde: test/CMakeFiles/pde.dir/rule
+
+.PHONY : pde
+
+# fast build rule for target.
+pde/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
+.PHONY : pde/fast
+
+# Convenience name for target.
+test/CMakeFiles/gedebahe.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/gedebahe.dir/rule
+.PHONY : test/CMakeFiles/gedebahe.dir/rule
+
+# Convenience name for target.
+gedebahe: test/CMakeFiles/gedebahe.dir/rule
+
+.PHONY : gedebahe
+
+# fast build rule for target.
+gedebahe/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gedebahe.dir/build.make test/CMakeFiles/gedebahe.dir/build
+.PHONY : gedebahe/fast
+
+# Convenience name for target.
+test/CMakeFiles/leixing.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/leixing.dir/rule
+.PHONY : test/CMakeFiles/leixing.dir/rule
+
+# Convenience name for target.
+leixing: test/CMakeFiles/leixing.dir/rule
+
+.PHONY : leixing
+
+# fast build rule for target.
+leixing/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/leixing.dir/build.make test/CMakeFiles/leixing.dir/build
+.PHONY : leixing/fast
 
 # Convenience name for target.
 test/CMakeFiles/shuixianhua.dir/rule:
@@ -156,19 +246,124 @@ shuixianhua/fast:
 .PHONY : shuixianhua/fast
 
 # Convenience name for target.
-test/CMakeFiles/test.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
-.PHONY : test/CMakeFiles/test.dir/rule
+test/CMakeFiles/niudun.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/niudun.dir/rule
+.PHONY : test/CMakeFiles/niudun.dir/rule
 
 # Convenience name for target.
-test: test/CMakeFiles/test.dir/rule
+niudun: test/CMakeFiles/niudun.dir/rule
 
-.PHONY : test
+.PHONY : niudun
 
 # fast build rule for target.
-test/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
+niudun/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
+.PHONY : niudun/fast
+
+# Convenience name for target.
+test/CMakeFiles/genhao.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/genhao.dir/rule
+.PHONY : test/CMakeFiles/genhao.dir/rule
+
+# Convenience name for target.
+genhao: test/CMakeFiles/genhao.dir/rule
+
+.PHONY : genhao
+
+# fast build rule for target.
+genhao/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/build
+.PHONY : genhao/fast
+
+# Convenience name for target.
+test/CMakeFiles/gongyinshu.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/gongyinshu.dir/rule
+.PHONY : test/CMakeFiles/gongyinshu.dir/rule
+
+# Convenience name for target.
+gongyinshu: test/CMakeFiles/gongyinshu.dir/rule
+
+.PHONY : gongyinshu
+
+# fast build rule for target.
+gongyinshu/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gongyinshu.dir/build.make test/CMakeFiles/gongyinshu.dir/build
+.PHONY : gongyinshu/fast
+
+# Convenience name for target.
+test/CMakeFiles/shape.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/rule
+.PHONY : test/CMakeFiles/shape.dir/rule
+
+# Convenience name for target.
+shape: test/CMakeFiles/shape.dir/rule
+
+.PHONY : shape
+
+# fast build rule for target.
+shape/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
+.PHONY : shape/fast
+
+# Convenience name for target.
+test/CMakeFiles/hello.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hello.dir/rule
+.PHONY : test/CMakeFiles/hello.dir/rule
+
+# Convenience name for target.
+hello: test/CMakeFiles/hello.dir/rule
+
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+# Convenience name for target.
+test/CMakeFiles/zuoan.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/zuoan.dir/rule
+.PHONY : test/CMakeFiles/zuoan.dir/rule
+
+# Convenience name for target.
+zuoan: test/CMakeFiles/zuoan.dir/rule
+
+.PHONY : zuoan
+
+# fast build rule for target.
+zuoan/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/zuoan.dir/build.make test/CMakeFiles/zuoan.dir/build
+.PHONY : zuoan/fast
+
+# Convenience name for target.
+test/CMakeFiles/exp.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/exp.dir/rule
+.PHONY : test/CMakeFiles/exp.dir/rule
+
+# Convenience name for target.
+exp: test/CMakeFiles/exp.dir/rule
+
+.PHONY : exp
+
+# fast build rule for target.
+exp/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/exp.dir/build.make test/CMakeFiles/exp.dir/build
+.PHONY : exp/fast
+
+# Convenience name for target.
+test/CMakeFiles/d_integral.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/d_integral.dir/rule
+.PHONY : test/CMakeFiles/d_integral.dir/rule
+
+# Convenience name for target.
+d_integral: test/CMakeFiles/d_integral.dir/rule
+
+.PHONY : d_integral
+
+# fast build rule for target.
+d_integral/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/build
+.PHONY : d_integral/fast
 
 # Convenience name for target.
 test/CMakeFiles/sushu.dir/rule:
@@ -201,94 +396,73 @@ qinmishu/fast:
 .PHONY : qinmishu/fast
 
 # Convenience name for target.
-test/CMakeFiles/wanshu.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/wanshu.dir/rule
-.PHONY : test/CMakeFiles/wanshu.dir/rule
+test/CMakeFiles/test.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+.PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-wanshu: test/CMakeFiles/wanshu.dir/rule
+test: test/CMakeFiles/test.dir/rule
 
-.PHONY : wanshu
+.PHONY : test
 
 # fast build rule for target.
-wanshu/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
-.PHONY : wanshu/fast
+test/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
 
-# Convenience name for target.
-test/CMakeFiles/pde.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/pde.dir/rule
-.PHONY : test/CMakeFiles/pde.dir/rule
+d_integral.o: d_integral.c.o
 
-# Convenience name for target.
-pde: test/CMakeFiles/pde.dir/rule
+.PHONY : d_integral.o
 
-.PHONY : pde
+# target to build an object file
+d_integral.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/d_integral.c.o
+.PHONY : d_integral.c.o
 
-# fast build rule for target.
-pde/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
-.PHONY : pde/fast
+d_integral.i: d_integral.c.i
 
-# Convenience name for target.
-test/CMakeFiles/half.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/half.dir/rule
-.PHONY : test/CMakeFiles/half.dir/rule
+.PHONY : d_integral.i
 
-# Convenience name for target.
-half: test/CMakeFiles/half.dir/rule
+# target to preprocess a source file
+d_integral.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/d_integral.c.i
+.PHONY : d_integral.c.i
 
-.PHONY : half
+d_integral.s: d_integral.c.s
 
-# fast build rule for target.
-half/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
-.PHONY : half/fast
+.PHONY : d_integral.s
 
-# Convenience name for target.
-test/CMakeFiles/file.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/file.dir/rule
-.PHONY : test/CMakeFiles/file.dir/rule
+# target to generate assembly for a file
+d_integral.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/d_integral.c.s
+.PHONY : d_integral.c.s
 
-# Convenience name for target.
-file: test/CMakeFiles/file.dir/rule
+exp.o: exp.c.o
 
-.PHONY : file
+.PHONY : exp.o
 
-# fast build rule for target.
-file/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
-.PHONY : file/fast
+# target to build an object file
+exp.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/exp.dir/build.make test/CMakeFiles/exp.dir/exp.c.o
+.PHONY : exp.c.o
 
-# Convenience name for target.
-test/CMakeFiles/hello.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hello.dir/rule
-.PHONY : test/CMakeFiles/hello.dir/rule
+exp.i: exp.c.i
 
-# Convenience name for target.
-hello: test/CMakeFiles/hello.dir/rule
+.PHONY : exp.i
 
-.PHONY : hello
+# target to preprocess a source file
+exp.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/exp.dir/build.make test/CMakeFiles/exp.dir/exp.c.i
+.PHONY : exp.c.i
 
-# fast build rule for target.
-hello/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+exp.s: exp.c.s
 
-# Convenience name for target.
-test/CMakeFiles/shape.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/shape.dir/rule
-.PHONY : test/CMakeFiles/shape.dir/rule
+.PHONY : exp.s
 
-# Convenience name for target.
-shape: test/CMakeFiles/shape.dir/rule
-
-.PHONY : shape
-
-# fast build rule for target.
-shape/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
-.PHONY : shape/fast
+# target to generate assembly for a file
+exp.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/exp.dir/build.make test/CMakeFiles/exp.dir/exp.c.s
+.PHONY : exp.c.s
 
 file.o: file.c.o
 
@@ -316,6 +490,87 @@ file.s: file.c.s
 file.c.s:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/file.c.s
 .PHONY : file.c.s
+
+gedebahe.o: gedebahe.c.o
+
+.PHONY : gedebahe.o
+
+# target to build an object file
+gedebahe.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gedebahe.dir/build.make test/CMakeFiles/gedebahe.dir/gedebahe.c.o
+.PHONY : gedebahe.c.o
+
+gedebahe.i: gedebahe.c.i
+
+.PHONY : gedebahe.i
+
+# target to preprocess a source file
+gedebahe.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gedebahe.dir/build.make test/CMakeFiles/gedebahe.dir/gedebahe.c.i
+.PHONY : gedebahe.c.i
+
+gedebahe.s: gedebahe.c.s
+
+.PHONY : gedebahe.s
+
+# target to generate assembly for a file
+gedebahe.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gedebahe.dir/build.make test/CMakeFiles/gedebahe.dir/gedebahe.c.s
+.PHONY : gedebahe.c.s
+
+genhao.o: genhao.c.o
+
+.PHONY : genhao.o
+
+# target to build an object file
+genhao.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/genhao.c.o
+.PHONY : genhao.c.o
+
+genhao.i: genhao.c.i
+
+.PHONY : genhao.i
+
+# target to preprocess a source file
+genhao.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/genhao.c.i
+.PHONY : genhao.c.i
+
+genhao.s: genhao.c.s
+
+.PHONY : genhao.s
+
+# target to generate assembly for a file
+genhao.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/genhao.c.s
+.PHONY : genhao.c.s
+
+gongyinshu.o: gongyinshu.c.o
+
+.PHONY : gongyinshu.o
+
+# target to build an object file
+gongyinshu.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gongyinshu.dir/build.make test/CMakeFiles/gongyinshu.dir/gongyinshu.c.o
+.PHONY : gongyinshu.c.o
+
+gongyinshu.i: gongyinshu.c.i
+
+.PHONY : gongyinshu.i
+
+# target to preprocess a source file
+gongyinshu.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gongyinshu.dir/build.make test/CMakeFiles/gongyinshu.dir/gongyinshu.c.i
+.PHONY : gongyinshu.c.i
+
+gongyinshu.s: gongyinshu.c.s
+
+.PHONY : gongyinshu.s
+
+# target to generate assembly for a file
+gongyinshu.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/gongyinshu.dir/build.make test/CMakeFiles/gongyinshu.dir/gongyinshu.c.s
+.PHONY : gongyinshu.c.s
 
 half.o: half.c.o
 
@@ -371,6 +626,33 @@ hello.c.s:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/hello.c.s
 .PHONY : hello.c.s
 
+leixing.o: leixing.c.o
+
+.PHONY : leixing.o
+
+# target to build an object file
+leixing.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/leixing.dir/build.make test/CMakeFiles/leixing.dir/leixing.c.o
+.PHONY : leixing.c.o
+
+leixing.i: leixing.c.i
+
+.PHONY : leixing.i
+
+# target to preprocess a source file
+leixing.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/leixing.dir/build.make test/CMakeFiles/leixing.dir/leixing.c.i
+.PHONY : leixing.c.i
+
+leixing.s: leixing.c.s
+
+.PHONY : leixing.s
+
+# target to generate assembly for a file
+leixing.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/leixing.dir/build.make test/CMakeFiles/leixing.dir/leixing.c.s
+.PHONY : leixing.c.s
+
 newhalf.o: newhalf.c.o
 
 .PHONY : newhalf.o
@@ -424,6 +706,33 @@ newshape.s: newshape.c.s
 newshape.c.s:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/newshape.dir/build.make test/CMakeFiles/newshape.dir/newshape.c.s
 .PHONY : newshape.c.s
+
+niudun.o: niudun.c.o
+
+.PHONY : niudun.o
+
+# target to build an object file
+niudun.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/niudun.c.o
+.PHONY : niudun.c.o
+
+niudun.i: niudun.c.i
+
+.PHONY : niudun.i
+
+# target to preprocess a source file
+niudun.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/niudun.c.i
+.PHONY : niudun.c.i
+
+niudun.s: niudun.c.s
+
+.PHONY : niudun.s
+
+# target to generate assembly for a file
+niudun.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/niudun.c.s
+.PHONY : niudun.c.s
 
 pde.o: pde.c.o
 
@@ -614,41 +923,97 @@ wanshu.c.s:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/wanshu.c.s
 .PHONY : wanshu.c.s
 
+zuoan.o: zuoan.c.o
+
+.PHONY : zuoan.o
+
+# target to build an object file
+zuoan.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/zuoan.dir/build.make test/CMakeFiles/zuoan.dir/zuoan.c.o
+.PHONY : zuoan.c.o
+
+zuoan.i: zuoan.c.i
+
+.PHONY : zuoan.i
+
+# target to preprocess a source file
+zuoan.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/zuoan.dir/build.make test/CMakeFiles/zuoan.dir/zuoan.c.i
+.PHONY : zuoan.c.i
+
+zuoan.s: zuoan.c.s
+
+.PHONY : zuoan.s
+
+# target to generate assembly for a file
+zuoan.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/zuoan.dir/build.make test/CMakeFiles/zuoan.dir/zuoan.c.s
+.PHONY : zuoan.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... newshape"
-	@echo "... newhalf"
-	@echo "... shuixianhua"
-	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... newshape"
+	@echo "... file"
+	@echo "... half"
+	@echo "... wanshu"
+	@echo "... newhalf"
+	@echo "... pde"
+	@echo "... gedebahe"
+	@echo "... leixing"
+	@echo "... shuixianhua"
+	@echo "... niudun"
+	@echo "... genhao"
+	@echo "... gongyinshu"
+	@echo "... shape"
+	@echo "... hello"
+	@echo "... zuoan"
+	@echo "... exp"
+	@echo "... d_integral"
 	@echo "... sushu"
 	@echo "... qinmishu"
-	@echo "... wanshu"
-	@echo "... pde"
-	@echo "... half"
-	@echo "... file"
-	@echo "... hello"
-	@echo "... shape"
+	@echo "... test"
+	@echo "... d_integral.o"
+	@echo "... d_integral.i"
+	@echo "... d_integral.s"
+	@echo "... exp.o"
+	@echo "... exp.i"
+	@echo "... exp.s"
 	@echo "... file.o"
 	@echo "... file.i"
 	@echo "... file.s"
+	@echo "... gedebahe.o"
+	@echo "... gedebahe.i"
+	@echo "... gedebahe.s"
+	@echo "... genhao.o"
+	@echo "... genhao.i"
+	@echo "... genhao.s"
+	@echo "... gongyinshu.o"
+	@echo "... gongyinshu.i"
+	@echo "... gongyinshu.s"
 	@echo "... half.o"
 	@echo "... half.i"
 	@echo "... half.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
+	@echo "... leixing.o"
+	@echo "... leixing.i"
+	@echo "... leixing.s"
 	@echo "... newhalf.o"
 	@echo "... newhalf.i"
 	@echo "... newhalf.s"
 	@echo "... newshape.o"
 	@echo "... newshape.i"
 	@echo "... newshape.s"
+	@echo "... niudun.o"
+	@echo "... niudun.i"
+	@echo "... niudun.s"
 	@echo "... pde.o"
 	@echo "... pde.i"
 	@echo "... pde.s"
@@ -670,6 +1035,9 @@ help:
 	@echo "... wanshu.o"
 	@echo "... wanshu.i"
 	@echo "... wanshu.s"
+	@echo "... zuoan.o"
+	@echo "... zuoan.i"
+	@echo "... zuoan.s"
 .PHONY : help
 
 

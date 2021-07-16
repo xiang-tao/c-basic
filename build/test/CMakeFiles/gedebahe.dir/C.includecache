@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/algebra.h
+stdio.h
+-
+math.h
+-
+
+/home/xt/github/c-basic/test/gedebahe.c
+stdio.h
+-
+math.h
+-
+algebra.h
+/home/xt/github/c-basic/test/algebra.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/gongyinshu.dir/gongyinshu.c.o  -o gongyinshu  -lm 

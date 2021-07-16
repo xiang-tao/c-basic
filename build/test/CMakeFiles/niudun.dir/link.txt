@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/niudun.dir/niudun.c.o  -o niudun  -lm 

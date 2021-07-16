@@ -24,7 +24,7 @@ int main()
                 sumB+=j;
         }
         if(sumB==i && i<sum)  /*使每对亲密数只输出一次*/
-            printf("%4d--%4d    ", i, sum);
+            printf("%4d--%4d", i, sum);
     }
     printf("\n");
 }

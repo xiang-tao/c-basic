@@ -124,6 +124,45 @@ newshape/fast:
 .PHONY : newshape/fast
 
 #=============================================================================
+# Target rules for targets named file
+
+# Build rule for target.
+file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 file
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
+.PHONY : file/fast
+
+#=============================================================================
+# Target rules for targets named half
+
+# Build rule for target.
+half: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 half
+.PHONY : half
+
+# fast build rule for target.
+half/fast:
+	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
+.PHONY : half/fast
+
+#=============================================================================
+# Target rules for targets named wanshu
+
+# Build rule for target.
+wanshu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wanshu
+.PHONY : wanshu
+
+# fast build rule for target.
+wanshu/fast:
+	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
+.PHONY : wanshu/fast
+
+#=============================================================================
 # Target rules for targets named newhalf
 
 # Build rule for target.
@@ -135,6 +174,45 @@ newhalf: cmake_check_build_system
 newhalf/fast:
 	$(MAKE) -f test/CMakeFiles/newhalf.dir/build.make test/CMakeFiles/newhalf.dir/build
 .PHONY : newhalf/fast
+
+#=============================================================================
+# Target rules for targets named pde
+
+# Build rule for target.
+pde: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pde
+.PHONY : pde
+
+# fast build rule for target.
+pde/fast:
+	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
+.PHONY : pde/fast
+
+#=============================================================================
+# Target rules for targets named gedebahe
+
+# Build rule for target.
+gedebahe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gedebahe
+.PHONY : gedebahe
+
+# fast build rule for target.
+gedebahe/fast:
+	$(MAKE) -f test/CMakeFiles/gedebahe.dir/build.make test/CMakeFiles/gedebahe.dir/build
+.PHONY : gedebahe/fast
+
+#=============================================================================
+# Target rules for targets named leixing
+
+# Build rule for target.
+leixing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leixing
+.PHONY : leixing
+
+# fast build rule for target.
+leixing/fast:
+	$(MAKE) -f test/CMakeFiles/leixing.dir/build.make test/CMakeFiles/leixing.dir/build
+.PHONY : leixing/fast
 
 #=============================================================================
 # Target rules for targets named shuixianhua
@@ -150,17 +228,108 @@ shuixianhua/fast:
 .PHONY : shuixianhua/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named niudun
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+niudun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 niudun
+.PHONY : niudun
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
+niudun/fast:
+	$(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
+.PHONY : niudun/fast
+
+#=============================================================================
+# Target rules for targets named genhao
+
+# Build rule for target.
+genhao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genhao
+.PHONY : genhao
+
+# fast build rule for target.
+genhao/fast:
+	$(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/build
+.PHONY : genhao/fast
+
+#=============================================================================
+# Target rules for targets named gongyinshu
+
+# Build rule for target.
+gongyinshu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gongyinshu
+.PHONY : gongyinshu
+
+# fast build rule for target.
+gongyinshu/fast:
+	$(MAKE) -f test/CMakeFiles/gongyinshu.dir/build.make test/CMakeFiles/gongyinshu.dir/build
+.PHONY : gongyinshu/fast
+
+#=============================================================================
+# Target rules for targets named shape
+
+# Build rule for target.
+shape: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shape
+.PHONY : shape
+
+# fast build rule for target.
+shape/fast:
+	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
+.PHONY : shape/fast
+
+#=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named zuoan
+
+# Build rule for target.
+zuoan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zuoan
+.PHONY : zuoan
+
+# fast build rule for target.
+zuoan/fast:
+	$(MAKE) -f test/CMakeFiles/zuoan.dir/build.make test/CMakeFiles/zuoan.dir/build
+.PHONY : zuoan/fast
+
+#=============================================================================
+# Target rules for targets named exp
+
+# Build rule for target.
+exp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exp
+.PHONY : exp
+
+# fast build rule for target.
+exp/fast:
+	$(MAKE) -f test/CMakeFiles/exp.dir/build.make test/CMakeFiles/exp.dir/build
+.PHONY : exp/fast
+
+#=============================================================================
+# Target rules for targets named d_integral
+
+# Build rule for target.
+d_integral: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 d_integral
+.PHONY : d_integral
+
+# fast build rule for target.
+d_integral/fast:
+	$(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/build
+.PHONY : d_integral/fast
 
 #=============================================================================
 # Target rules for targets named sushu
@@ -189,82 +358,17 @@ qinmishu/fast:
 .PHONY : qinmishu/fast
 
 #=============================================================================
-# Target rules for targets named wanshu
+# Target rules for targets named test
 
 # Build rule for target.
-wanshu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wanshu
-.PHONY : wanshu
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-wanshu/fast:
-	$(MAKE) -f test/CMakeFiles/wanshu.dir/build.make test/CMakeFiles/wanshu.dir/build
-.PHONY : wanshu/fast
-
-#=============================================================================
-# Target rules for targets named pde
-
-# Build rule for target.
-pde: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pde
-.PHONY : pde
-
-# fast build rule for target.
-pde/fast:
-	$(MAKE) -f test/CMakeFiles/pde.dir/build.make test/CMakeFiles/pde.dir/build
-.PHONY : pde/fast
-
-#=============================================================================
-# Target rules for targets named half
-
-# Build rule for target.
-half: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 half
-.PHONY : half
-
-# fast build rule for target.
-half/fast:
-	$(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/build
-.PHONY : half/fast
-
-#=============================================================================
-# Target rules for targets named file
-
-# Build rule for target.
-file: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 file
-.PHONY : file
-
-# fast build rule for target.
-file/fast:
-	$(MAKE) -f test/CMakeFiles/file.dir/build.make test/CMakeFiles/file.dir/build
-.PHONY : file/fast
-
-#=============================================================================
-# Target rules for targets named hello
-
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
-
-# fast build rule for target.
-hello/fast:
-	$(MAKE) -f test/CMakeFiles/hello.dir/build.make test/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-#=============================================================================
-# Target rules for targets named shape
-
-# Build rule for target.
-shape: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 shape
-.PHONY : shape
-
-# fast build rule for target.
-shape/fast:
-	$(MAKE) -f test/CMakeFiles/shape.dir/build.make test/CMakeFiles/shape.dir/build
-.PHONY : shape/fast
+test/fast:
+	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 # Help Target
 help:
@@ -275,17 +379,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... newshape"
+	@echo "... file"
+	@echo "... half"
+	@echo "... wanshu"
 	@echo "... newhalf"
+	@echo "... pde"
+	@echo "... gedebahe"
+	@echo "... leixing"
 	@echo "... shuixianhua"
-	@echo "... test"
+	@echo "... niudun"
+	@echo "... genhao"
+	@echo "... gongyinshu"
+	@echo "... shape"
+	@echo "... hello"
+	@echo "... zuoan"
+	@echo "... exp"
+	@echo "... d_integral"
 	@echo "... sushu"
 	@echo "... qinmishu"
-	@echo "... wanshu"
-	@echo "... pde"
-	@echo "... half"
-	@echo "... file"
-	@echo "... hello"
-	@echo "... shape"
+	@echo "... test"
 .PHONY : help
 
 

@@ -17,7 +17,7 @@ int main()
         while(b-a>1.0E-9)
         {
             c = (a+b)/2;
-            if(f(x,t,a)*f(x,t,c)>0)
+            if(f(x,t,a) * f(x,t,c)>0)
                 a=c;
             else if(f(x,t,a)*f(x,t,c)<0)
                 b=c;

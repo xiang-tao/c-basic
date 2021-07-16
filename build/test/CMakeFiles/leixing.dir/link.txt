@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/leixing.dir/leixing.c.o  -o leixing 

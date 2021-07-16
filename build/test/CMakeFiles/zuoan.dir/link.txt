@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/zuoan.dir/zuoan.c.o  -o zuoan 

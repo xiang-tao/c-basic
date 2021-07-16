@@ -1,21 +1,20 @@
 /*
  *
- *Notes:计算水仙花数，例如abc=a^3+b^3+c^3，则abc叫做水仙花数
+ *Notes:判断其是否是水仙花数水仙花数，例如abc=a^3+b^3+c^3，则abc叫做水仙花数
  ----------
  输入一个整数，判断其是否是水仙花数，这个整数的位数可以自己任意设定
  * */
 #include<stdio.h>
 #include<math.h>
-#define N 4
 int main()
 {
-    int sum=0,k1,k,i;//n
-    //printf("请输入一个整数:");
-    //scanf("%d",&n);
+    int sum=0,k1,k,i,N;
+    printf("请输入一个整数:");
+    scanf("%d",&N);
     printf("请输入一个%d位数的整数:",N);
     scanf("%d",&k);
     k1=k;
-    int a[N] = {0};
+    int a[N];
     for(i=0;i<N;i++)
     {
         if(i!=N-1)

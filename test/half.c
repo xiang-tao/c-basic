@@ -1,3 +1,8 @@
+/*
+ *Notes:二分法近似求解二次函数
+ -----------
+ 求解x^2+2x+sin(x)-1
+ * */
 #include <stdio.h>
 #include <math.h>
 

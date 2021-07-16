@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/d_integral.dir/d_integral.c.o  -o d_integral  -lm 
