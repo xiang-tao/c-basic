@@ -163,6 +163,71 @@ wanshu/fast:
 .PHONY : wanshu/fast
 
 #=============================================================================
+# Target rules for targets named sushu
+
+# Build rule for target.
+sushu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sushu
+.PHONY : sushu
+
+# fast build rule for target.
+sushu/fast:
+	$(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/build
+.PHONY : sushu/fast
+
+#=============================================================================
+# Target rules for targets named qinmishu
+
+# Build rule for target.
+qinmishu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qinmishu
+.PHONY : qinmishu
+
+# fast build rule for target.
+qinmishu/fast:
+	$(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/build
+.PHONY : qinmishu/fast
+
+#=============================================================================
+# Target rules for targets named test1
+
+# Build rule for target.
+test1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
+
+# fast build rule for target.
+test1/fast:
+	$(MAKE) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
+#=============================================================================
+# Target rules for targets named niudun
+
+# Build rule for target.
+niudun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 niudun
+.PHONY : niudun
+
+# fast build rule for target.
+niudun/fast:
+	$(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
+.PHONY : niudun/fast
+
+#=============================================================================
+# Target rules for targets named genhao
+
+# Build rule for target.
+genhao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genhao
+.PHONY : genhao
+
+# fast build rule for target.
+genhao/fast:
+	$(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/build
+.PHONY : genhao/fast
+
+#=============================================================================
 # Target rules for targets named newhalf
 
 # Build rule for target.
@@ -226,32 +291,6 @@ shuixianhua: cmake_check_build_system
 shuixianhua/fast:
 	$(MAKE) -f test/CMakeFiles/shuixianhua.dir/build.make test/CMakeFiles/shuixianhua.dir/build
 .PHONY : shuixianhua/fast
-
-#=============================================================================
-# Target rules for targets named niudun
-
-# Build rule for target.
-niudun: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 niudun
-.PHONY : niudun
-
-# fast build rule for target.
-niudun/fast:
-	$(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
-.PHONY : niudun/fast
-
-#=============================================================================
-# Target rules for targets named genhao
-
-# Build rule for target.
-genhao: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 genhao
-.PHONY : genhao
-
-# fast build rule for target.
-genhao/fast:
-	$(MAKE) -f test/CMakeFiles/genhao.dir/build.make test/CMakeFiles/genhao.dir/build
-.PHONY : genhao/fast
 
 #=============================================================================
 # Target rules for targets named gongyinshu
@@ -332,32 +371,6 @@ d_integral/fast:
 .PHONY : d_integral/fast
 
 #=============================================================================
-# Target rules for targets named sushu
-
-# Build rule for target.
-sushu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sushu
-.PHONY : sushu
-
-# fast build rule for target.
-sushu/fast:
-	$(MAKE) -f test/CMakeFiles/sushu.dir/build.make test/CMakeFiles/sushu.dir/build
-.PHONY : sushu/fast
-
-#=============================================================================
-# Target rules for targets named qinmishu
-
-# Build rule for target.
-qinmishu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qinmishu
-.PHONY : qinmishu
-
-# fast build rule for target.
-qinmishu/fast:
-	$(MAKE) -f test/CMakeFiles/qinmishu.dir/build.make test/CMakeFiles/qinmishu.dir/build
-.PHONY : qinmishu/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -382,21 +395,22 @@ help:
 	@echo "... file"
 	@echo "... half"
 	@echo "... wanshu"
+	@echo "... sushu"
+	@echo "... qinmishu"
+	@echo "... test1"
+	@echo "... niudun"
+	@echo "... genhao"
 	@echo "... newhalf"
 	@echo "... pde"
 	@echo "... gedebahe"
 	@echo "... leixing"
 	@echo "... shuixianhua"
-	@echo "... niudun"
-	@echo "... genhao"
 	@echo "... gongyinshu"
 	@echo "... shape"
 	@echo "... hello"
 	@echo "... zuoan"
 	@echo "... exp"
 	@echo "... d_integral"
-	@echo "... sushu"
-	@echo "... qinmishu"
 	@echo "... test"
 .PHONY : help
 

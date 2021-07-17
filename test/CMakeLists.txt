@@ -1,4 +1,5 @@
 add_executable(hello hello.c)
+add_executable(test1 test1.c)
 add_executable(newhalf newhalf.c)
 
 add_executable(gedebahe gedebahe.c)
