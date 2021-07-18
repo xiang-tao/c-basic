@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/maopao.dir/maopao.c.o  -o maopao 

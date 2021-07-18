@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/algebra.h
-stdio.h
--
-math.h
--
-
 /home/xt/github/c-basic/test/test.c
 stdio.h
 -
-algebra.h
-/home/xt/github/c-basic/test/algebra.h
 

@@ -229,6 +229,42 @@ double gexianfa(double a,double b,double (*f)(double x),\
     return x2;
 }
 
+void MatrixMulti(int m,int n,int p,\
+                int *a,int *b,int *c)
+{
+    int i,j,k;
+    for(i=0;i<m;i++)
+    {
+        for(j=0;j<p;j++)
+        {
+            for(k=0;k<n;k++)
+            {
+                *(c+i*p+j)+=*(a+i*n+k)*(*(b+k*p+j));
+            }
+        }
+    }
+}
+
+//下面是一些排序算法函数
+//冒泡排序
+int maopao(int *a,int n)
+{
+    int i,j,t;
+    for(i=0;i<n-1;i++)
+    {
+        for(j=1;j<n-i;j++)
+        {
+            if(a[j-1]>a[j])
+            {
+                t = a[j-1];
+                a[j-1] = a[j];
+                a[j] = t;
+            }
+        }
+    }
+}
+
+
 
 #endif
 

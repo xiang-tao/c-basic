@@ -1,20 +1,16 @@
 #include<stdio.h>
-#include "algebra.h"
+int swpa(int *p, int *q)
+{
+    int t = *p;
+    *p = *q;
+    *q = t;
+    return 0;
+}
 int main()
 {
-    int a[][3]={1,2,3,4,5,6};
-    int i,j;
-    int b[10] = {[2]=1,2,3};
-    for(i=0;i<10;i++)
-        printf("%d\t",b[i]);
-    printf("\n");
-    for(i=0;i<2;i++)
-    {
-        for(j=0;j<3;j++)
-        {
-            printf("%d\t",a[i][j]);
-        }
-        printf("\n");
+    int a=3,b=5;
+    printf("%d %d\n",a,b);
+    swpa(&a,&b);
+    printf("%d %d\n",a,b);
 
-    }
 }

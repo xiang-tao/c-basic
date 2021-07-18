@@ -8,6 +8,18 @@ add_executable(leixing leixing.c)
 
 add_executable(zuoan zuoan.c)
 
+add_executable(eryibai eryibai.c)
+
+add_executable(zhizhen zhizhen.c)
+
+add_executable(mofang mofang.c)
+
+add_executable(matrix matrix.c)
+
+add_executable(maopao maopao.c)
+
+add_executable(xuanzhuan xuanzhuan.c)
+
 add_executable(niudun niudun.c)
 target_link_libraries(niudun  m)
 
