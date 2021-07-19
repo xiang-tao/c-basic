@@ -9,4 +9,6 @@
 /home/xt/github/c-basic/test/test.c
 stdio.h
 -
+string.h
+-
 

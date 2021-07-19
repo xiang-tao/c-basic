@@ -263,6 +263,63 @@ int maopao(int *a,int n)
         }
     }
 }
+//选择排序
+int xuanze(int *a, int n)
+{
+    int k,i,j,t;
+    for(i=0;i<n-1;i++)
+    {
+        k=i;
+        for(j=i+1;j<n;j++)
+        {
+            if(a[j]<a[k])
+                k=j;
+        }
+        if(k==i)
+            continue;
+        else
+        {
+            t = a[k];
+            a[k] = a[i];
+            a[i] = t;
+        }
+    }
+}
+
+//快速排序
+void swap(int *p, int *q)
+{
+    int t = *p;
+    *p = *q;
+    *q = t;
+}
+int kuaisu(int *a, int n,int begin,int end)
+{
+    int i,j;
+    if(begin<end)
+    {
+        i=begin+1;
+        j=end;
+    }
+    while(i<j)
+    {
+        if(a[i]>a[begin])
+        {
+            swap(&a[i],&a[j]);
+            j--;
+        }
+        else
+            i++;
+    }
+    if(a[i]>=a[begin])
+        i--;
+    swap(&a[begin],&a[i]);
+    if(i == begin && j == end)
+        return 0;
+    kuaisu(a,n,begin,i);
+    kuaisu(a,n,j,end);
+}
+
 
 
 

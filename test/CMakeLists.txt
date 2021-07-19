@@ -18,6 +18,12 @@ add_executable(matrix matrix.c)
 
 add_executable(maopao maopao.c)
 
+add_executable(paixu paixu.c)
+
+add_executable(kuaisu kuaisu.c)
+
+add_executable(yuesefu yuesefu.c)
+
 add_executable(xuanzhuan xuanzhuan.c)
 
 add_executable(niudun niudun.c)
