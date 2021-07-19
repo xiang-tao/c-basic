@@ -319,30 +319,17 @@ genhao/fast:
 .PHONY : genhao/fast
 
 #=============================================================================
-# Target rules for targets named xuanzhuan
+# Target rules for targets named hanoi
 
 # Build rule for target.
-xuanzhuan: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xuanzhuan
-.PHONY : xuanzhuan
+hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
 
 # fast build rule for target.
-xuanzhuan/fast:
-	$(MAKE) -f test/CMakeFiles/xuanzhuan.dir/build.make test/CMakeFiles/xuanzhuan.dir/build
-.PHONY : xuanzhuan/fast
-
-#=============================================================================
-# Target rules for targets named niudun
-
-# Build rule for target.
-niudun: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 niudun
-.PHONY : niudun
-
-# fast build rule for target.
-niudun/fast:
-	$(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
-.PHONY : niudun/fast
+hanoi/fast:
+	$(MAKE) -f test/CMakeFiles/hanoi.dir/build.make test/CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
 
 #=============================================================================
 # Target rules for targets named shape
@@ -369,6 +356,32 @@ d_integral: cmake_check_build_system
 d_integral/fast:
 	$(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/build
 .PHONY : d_integral/fast
+
+#=============================================================================
+# Target rules for targets named xuanzhuan
+
+# Build rule for target.
+xuanzhuan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xuanzhuan
+.PHONY : xuanzhuan
+
+# fast build rule for target.
+xuanzhuan/fast:
+	$(MAKE) -f test/CMakeFiles/xuanzhuan.dir/build.make test/CMakeFiles/xuanzhuan.dir/build
+.PHONY : xuanzhuan/fast
+
+#=============================================================================
+# Target rules for targets named niudun
+
+# Build rule for target.
+niudun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 niudun
+.PHONY : niudun
+
+# fast build rule for target.
+niudun/fast:
+	$(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
+.PHONY : niudun/fast
 
 #=============================================================================
 # Target rules for targets named yuesefu
@@ -524,10 +537,11 @@ help:
 	@echo "... newhalf"
 	@echo "... eryibai"
 	@echo "... genhao"
-	@echo "... xuanzhuan"
-	@echo "... niudun"
+	@echo "... hanoi"
 	@echo "... shape"
 	@echo "... d_integral"
+	@echo "... xuanzhuan"
+	@echo "... niudun"
 	@echo "... yuesefu"
 	@echo "... shuixianhua"
 	@echo "... test"

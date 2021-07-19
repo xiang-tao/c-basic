@@ -18,10 +18,11 @@
 /home/xt/github/c-basic/build/test/CMakeFiles/newhalf.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/eryibai.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/genhao.dir
-/home/xt/github/c-basic/build/test/CMakeFiles/xuanzhuan.dir
-/home/xt/github/c-basic/build/test/CMakeFiles/niudun.dir
+/home/xt/github/c-basic/build/test/CMakeFiles/hanoi.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/shape.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/d_integral.dir
+/home/xt/github/c-basic/build/test/CMakeFiles/xuanzhuan.dir
+/home/xt/github/c-basic/build/test/CMakeFiles/niudun.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/yuesefu.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/shuixianhua.dir
 /home/xt/github/c-basic/build/test/CMakeFiles/test.dir

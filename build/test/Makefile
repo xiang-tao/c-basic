@@ -351,34 +351,19 @@ genhao/fast:
 .PHONY : genhao/fast
 
 # Convenience name for target.
-test/CMakeFiles/xuanzhuan.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/xuanzhuan.dir/rule
-.PHONY : test/CMakeFiles/xuanzhuan.dir/rule
+test/CMakeFiles/hanoi.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/hanoi.dir/rule
+.PHONY : test/CMakeFiles/hanoi.dir/rule
 
 # Convenience name for target.
-xuanzhuan: test/CMakeFiles/xuanzhuan.dir/rule
+hanoi: test/CMakeFiles/hanoi.dir/rule
 
-.PHONY : xuanzhuan
+.PHONY : hanoi
 
 # fast build rule for target.
-xuanzhuan/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/xuanzhuan.dir/build.make test/CMakeFiles/xuanzhuan.dir/build
-.PHONY : xuanzhuan/fast
-
-# Convenience name for target.
-test/CMakeFiles/niudun.dir/rule:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/niudun.dir/rule
-.PHONY : test/CMakeFiles/niudun.dir/rule
-
-# Convenience name for target.
-niudun: test/CMakeFiles/niudun.dir/rule
-
-.PHONY : niudun
-
-# fast build rule for target.
-niudun/fast:
-	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
-.PHONY : niudun/fast
+hanoi/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hanoi.dir/build.make test/CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
 
 # Convenience name for target.
 test/CMakeFiles/shape.dir/rule:
@@ -409,6 +394,36 @@ d_integral: test/CMakeFiles/d_integral.dir/rule
 d_integral/fast:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/d_integral.dir/build.make test/CMakeFiles/d_integral.dir/build
 .PHONY : d_integral/fast
+
+# Convenience name for target.
+test/CMakeFiles/xuanzhuan.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/xuanzhuan.dir/rule
+.PHONY : test/CMakeFiles/xuanzhuan.dir/rule
+
+# Convenience name for target.
+xuanzhuan: test/CMakeFiles/xuanzhuan.dir/rule
+
+.PHONY : xuanzhuan
+
+# fast build rule for target.
+xuanzhuan/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/xuanzhuan.dir/build.make test/CMakeFiles/xuanzhuan.dir/build
+.PHONY : xuanzhuan/fast
+
+# Convenience name for target.
+test/CMakeFiles/niudun.dir/rule:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/niudun.dir/rule
+.PHONY : test/CMakeFiles/niudun.dir/rule
+
+# Convenience name for target.
+niudun: test/CMakeFiles/niudun.dir/rule
+
+.PHONY : niudun
+
+# fast build rule for target.
+niudun/fast:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/niudun.dir/build.make test/CMakeFiles/niudun.dir/build
+.PHONY : niudun/fast
 
 # Convenience name for target.
 test/CMakeFiles/yuesefu.dir/rule:
@@ -775,6 +790,33 @@ half.s: half.c.s
 half.c.s:
 	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/half.dir/build.make test/CMakeFiles/half.dir/half.c.s
 .PHONY : half.c.s
+
+hanoi.o: hanoi.c.o
+
+.PHONY : hanoi.o
+
+# target to build an object file
+hanoi.c.o:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hanoi.dir/build.make test/CMakeFiles/hanoi.dir/hanoi.c.o
+.PHONY : hanoi.c.o
+
+hanoi.i: hanoi.c.i
+
+.PHONY : hanoi.i
+
+# target to preprocess a source file
+hanoi.c.i:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hanoi.dir/build.make test/CMakeFiles/hanoi.dir/hanoi.c.i
+.PHONY : hanoi.c.i
+
+hanoi.s: hanoi.c.s
+
+.PHONY : hanoi.s
+
+# target to generate assembly for a file
+hanoi.c.s:
+	cd /home/xt/github/c-basic/build && $(MAKE) -f test/CMakeFiles/hanoi.dir/build.make test/CMakeFiles/hanoi.dir/hanoi.c.s
+.PHONY : hanoi.c.s
 
 hello.o: hello.c.o
 
@@ -1394,10 +1436,11 @@ help:
 	@echo "... newhalf"
 	@echo "... eryibai"
 	@echo "... genhao"
-	@echo "... xuanzhuan"
-	@echo "... niudun"
+	@echo "... hanoi"
 	@echo "... shape"
 	@echo "... d_integral"
+	@echo "... xuanzhuan"
+	@echo "... niudun"
 	@echo "... yuesefu"
 	@echo "... shuixianhua"
 	@echo "... test"
@@ -1432,6 +1475,9 @@ help:
 	@echo "... half.o"
 	@echo "... half.i"
 	@echo "... half.s"
+	@echo "... hanoi.o"
+	@echo "... hanoi.i"
+	@echo "... hanoi.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"

@@ -24,6 +24,8 @@ add_executable(kuaisu kuaisu.c)
 
 add_executable(yuesefu yuesefu.c)
 
+add_executable(hanoi hanoi.c)
+
 add_executable(xuanzhuan xuanzhuan.c)
 
 add_executable(niudun niudun.c)
